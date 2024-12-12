@@ -1,8 +1,6 @@
-nginx:1.21.5
-apache/apisix:2.12.0-alpine
-apache/apisix-dashboard:2.10.1-alpine
-apache/skywalking-oap-server:8.9.0
-apache/skywalking-ui:8.9.0
-elasticsearch:7.9.3
-#支持指定架构
---platform=linux/arm64
+nginx:1.21.5 --platform=linux/arm64
+apache/apisix:2.12.0-alpine --platform=linux/arm64
+apache/apisix-dashboard:2.10.1-alpine --platform=linux/arm64
+apache/skywalking-oap-server:8.9.0 --platform=linux/arm64
+apache/skywalking-ui:8.9.0 --platform=linux/arm64
+elasticsearch:7.9.3 --platform=linux/arm64
