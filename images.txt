@@ -3,6 +3,6 @@ apache/apisix:2.12.0-alpine
 apache/apisix-dashboard:2.10.1-alpine
 apache/skywalking-oap-server:8.9.0
 apache/skywalking-ui:8.9.0
-elasticsearch:7.5.1
+elasticsearch:7.9.3
 #支持指定架构
 --platform=linux/arm64
